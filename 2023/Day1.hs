@@ -1,9 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import Data.Char (isDigit)
-import Data.Text (replace, toLower, pack, unpack, intercalate, splitOn, Text)
-import Data.Maybe (isJust, catMaybes)
-import Data.Tree (flatten)
+import Data.Text (toLower, pack, unpack)
 
 main :: IO ()
 main = do
